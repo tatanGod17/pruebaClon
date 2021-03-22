@@ -1,0 +1,68 @@
+
+.center
+{ 
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center2
+{ 
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  text-align: center;
+  padding-top: 50px;
+
+}
+.property-card
+{
+  height:40em;
+  width:30em;
+  position:relative;
+  border-radius: 16px;
+  box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  background-color: #5b99c1;
+}
+
+.property-image
+{ 
+  box-shadow: 15px 15px 27px #1d1d1f, -15px -15px 27px #ffffff;
+  border-radius: 16px;
+  width: 26em;
+  height: 16em;
+  margin-left: 30px;
+  background-image: url("https://mujerbien.com/wp-content/uploads/2016/09/tierra-1024x576.jpg");
+
+}
+.property-background-earth
+{   
+  margin-top: 80px;
+  width: 26em;
+  height: 16em;
+  margin-left: 30px;
+  position: absolute;
+  background-image: url("img_tree.gif");
+}
+
+/* Bottom Card Section */
+
+.property-description
+{
+  margin-bottom: 2em;
+  margin-left: 30px;
+  background-color: #FAFAFC;
+  width:24em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  border-radius: 16px;
+}
